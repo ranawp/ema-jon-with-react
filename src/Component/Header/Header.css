@@ -1,22 +1,37 @@
-.container{
+.nav-section{
     
     background-color: rgb(23, 23, 48);
 }
-.header{
-    height: 80px;
+.container{
     width: 90%;
+}
+.nav-bar{
+    height: 80px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2rem;
+    margin-left: 2rem;
 }
 
-.nav-bar a{
+.nav-items a{
     text-decoration: none; 
     margin-left: 1.5rem;
     color: white;
     font-size: .8rem;
 }
-.nav-bar a:hover{
+.nav-items a:hover{
     color: orange;
+}
+
+/* hero section */
+.hero-section{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.hero-section-right-side img{
+width: 15rem;
 }
